@@ -1,0 +1,26 @@
+header {
+    color:rgb(211, 187, 216);
+    background: linear-gradient(180deg, rgb(68, 17, 68) 11%,
+    rgb(68, 17, 68) 10%);
+}
+marquee{
+    text-align: center;
+}
+/* rgb(58, 15, 35) 0%, 
+    rgb(42, 17, 75) 100%); */
+
+    /* secondShade */
+    /* background: linear-gradient(270deg, rgb(92, 13, 85) 0%, 
+    rgb(64, 17, 85) 110%); */
+
+    /* thirdshade */
+    /* background: linear-gradient(270deg, rgb(71, 10, 66) 0%, 
+    rgb(64, 17, 85) 110%); */
+ 
+    /* 4th-shade */
+    /* linear-gradient(180deg, rgb(39, 3, 20) 0%,
+    rgb(64, 17, 85) 10%); */
+
+     /* 5th-shade */
+    /* linear-gradient(180deg, rgb(68, 17, 68) 11%,
+    rgb(68, 17, 68) 10%); */

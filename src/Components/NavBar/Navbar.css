@@ -1,0 +1,93 @@
+header {
+  /* background: #646cffaa; */
+  /* background: #8E0E00; */
+  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00); */
+  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #1F1C18, #8E0E00); */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  padding: 0;
+  text-align: center;
+}
+
+.Navbar {
+  display: flex;
+  align-items: center;
+  background: hsla(330, 36%, 53%, 1);
+  background: linear-gradient(
+    90deg,
+    hsla(330, 36%, 53%, 1) 0%,
+    hsla(289, 68%, 19%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(330, 36%, 53%, 1) 0%,
+    hsla(289, 68%, 19%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(330, 36%, 53%, 1) 0%,
+    hsla(289, 68%, 19%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#B15B86", endColorstr="#440F50", GradientType=1 );
+  color: #fff;
+  padding: 10px 50px;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 500;
+  gap: 30px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: white;
+}
+
+.logo p {
+  font-size: xx-large;
+  font-family: italic;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.Search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Search {
+  /* display: flex; */
+  /* align-items: center; */
+  height: 14px;
+  background-color: #242424;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+.Search input {
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  color: #fff;
+  font-size: 17px;
+  max-width: 200px;
+}
+
+.Search input::placeholder {
+  color: #fff;
+}
